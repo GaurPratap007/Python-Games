@@ -39,7 +39,7 @@ def setDifficulty():
 def game():
     print("I'm thinking of a number between 1 and 100.")
     answer = random.randint(1, 100)
-    print(f"Pssst, the correct answer is {answer}")
+    #print(f"Pssst, the correct answer is {answer}")
     turns = setDifficulty()
     guess = 0
     while guess != answer:
